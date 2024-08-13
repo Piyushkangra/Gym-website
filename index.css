@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -76,7 +77,6 @@
 
 .image-2 img {
     padding: 10px 0;
-    /*animation: image 2s alternate-reverse ease-in-out;*/
 }
 
 @keyframes image {
