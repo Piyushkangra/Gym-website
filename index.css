@@ -1,0 +1,678 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.first {
+    background-color: black;
+    height: 7vh;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.first svg {
+    color: white;
+    padding-bottom: 10px;
+    width: 35px;
+}
+
+.box {
+    background-color: white;
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo img {
+    width: 5vw;
+    padding-top: 12px;
+    position: relative;
+    right: 45px;
+}
+
+.box-1 ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: 17px;
+    padding-top: 35px;
+    position: relative;
+}
+
+.box-2 button {
+    background-color: rgb(255, 225, 0);
+    width: 8vw;
+    margin-top: 23px;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 100px;
+}
+
+.separation {
+    background-color: rgb(119, 215, 247);
+    height: 7px;
+}
+
+.container {
+    margin: 10px;
+    display: flex;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 70px;
+    font-family: sans-serif;
+    padding: 20px 0;
+}
+
+.image img {
+    padding: 5px 0;
+
+}
+
+.image-2 img {
+    padding: 10px 0;
+    /*animation: image 2s alternate-reverse ease-in-out;*/
+}
+
+@keyframes image {
+    from {}
+
+    to {
+        transform: translate(350px);
+    }
+}
+
+.parent {
+    height: 100vh;
+    display: flex;
+
+}
+
+.parent iframe {
+    margin-left: 80px;
+    padding-left: 70px;
+}
+
+.child {
+    height: 70vh;
+    width: 50vw;
+    margin: 20px;
+
+}
+
+.child-1 {
+    width: 100vw;
+}
+
+.child-2 {
+    width: 35vw;
+}
+
+.child-2 img {
+    opacity: 0.66;
+    height: 600px;
+    position: relative;
+    padding-top: 50px;
+    right: 50px;
+    width: 550px;
+    border-radius: 100%;
+    animation: image 1s ease-in-out 1 reverse;
+}
+
+.grandchild-1 {
+
+    height: 20vh;
+    background-color: yellow;
+    margin: 20px;
+    border-radius: 50px;
+}
+
+.grandchild-1 h1 {
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+
+.boys {
+
+    height: 150px;
+    width: 150px;
+    display: inline-table;
+    position: relative;
+    background-color: white;
+    border-radius: 30px;
+    margin: 5px;
+    left: 45px;
+    bottom: 50px;
+    text-align: center;
+    box-shadow: 5px 5px 10px gray;
+    animation: ani 1s ease-out 1 alternate-reverse;
+}
+
+@keyframes ani {
+    from {}
+
+    to {
+        transform: translate(100px);
+    }
+}
+
+.boys img {
+    height: 80px;
+    width: 80px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.boys p {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.num {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.number h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.nums {
+    width: 500px;
+    margin: 20px;
+    display: flex;
+    font-size: 20px;
+}
+
+.num-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    padding: 10px;
+    width: 620px;
+    margin-left: 60px;
+    padding-top: 50px;
+}
+
+.num-2 {
+    width: 600px;
+
+}
+
+.num-2 img {
+    width: 650px;
+    border-radius: 100%;
+}
+
+.values {
+    height: 60vh;
+    background-color: black;
+    font-family: sans-serif;
+}
+
+.values h1 {
+    color: yellow;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.values p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+
+.digit {
+    height: 40vh;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.com {
+    border: 2px solid white;
+    background-color: white;
+    height: 200px;
+    width: 600px;
+    margin: 20px;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+
+.com h2 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.com p {
+    color: black;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.com:hover {
+    transition: 0.6s ease-in-out;
+    border-radius: 100%;
+}
+
+.subject {
+    background-image: url(https://images.pexels.com/photos/8875036/pexels-photo-8875036.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    outline: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: sans-serif;
+}
+
+.subject h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.subject>p:nth-child(2) {
+    text-align: center;
+    font-size: 20px;
+}
+
+.book {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    justify-content: center;
+}
+
+.book h2 {
+    padding-left: 20px;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.book p {
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 19px;
+    width: 500px;
+    font-weight: lighter;
+}
+
+.books {
+    height: 55vh;
+    width: 35vw;
+    margin: 10px;
+}
+
+.books img {
+    height: 55vh;
+    width: 35vw;
+}
+
+@keyframes sub {
+    from {}
+
+    to {
+        transform: translate(-500px);
+    }
+
+}
+
+.book-1 {
+    animation: sub 1s linear 1 reverse;
+}
+
+.book-3 {
+    animation: sub 1s linear 1 reverse;
+}
+
+.book-5 {
+    animation: sub 1s linear 1 reverse;
+}
+
+@keyframes any {
+    from {}
+
+    to {
+        transform: translate(500px);
+    }
+}
+
+.book-2 {
+    animation: any 1s linear 1 reverse;
+}
+
+.book-4 {
+    animation: any 1s linear 1 reverse;
+}
+
+.book-6 {
+    animation: any 1s linear 1 reverse;
+}
+
+.elements {
+    border: 2px solid black;
+    height: 80vh;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+.elements h1 {
+    padding: 10px;
+    font-size: 50px;
+}
+
+.elements h3 {
+    padding: 10px;
+
+}
+
+.elements b {
+    color: yellow;
+    font-weight: bolder;
+}
+
+.sum {
+    height: 40vh;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 320px 320px 320px 320px;
+    justify-content: center;
+}
+
+.mul {
+    height: 250px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.mul p {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.elements button {
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: yellow;
+}
+
+.form {
+    height: 130vh;
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+    text-align: center;
+    background-image: url(https://img.freepik.com/free-photo/handsome-muscular-man-doing-exercises-with-dumbbells-isolated-white-background-whith-solar-flare_639032-199.jpg?size=626&ext=jpg&ga=GA1.1.901650178.1723144560&semt=ais_hybrid);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.form-2 h2 {
+    color: yellow;
+    padding: 20px;
+
+}
+
+.form-1 {
+    margin: 10px;
+    height: 125vh;
+    margin: 10px;
+    width: 40vw;
+}
+
+.form-2 {
+    margin: 10px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.form-3 {
+    margin: 10px;
+    height: 90px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+.form-3 p {
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.form-4 {
+    margin: 10px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+}
+
+.forms {
+    height: 50px;
+    margin: 20px 0;
+    border-style: none;
+}
+
+.forms select {
+    width: 560px;
+    height: 45px;
+    color: black;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.forms input {
+    width: 560px;
+    height: 45px;
+    color: black;
+    font-size: 20px;
+    padding-left: 5px;
+    border-radius: 8px;
+}
+
+.input-5 {
+    height: 150px;
+}
+
+.input-5 input {
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.input-6 {
+    border-radius: 8px;
+    background-color: white;
+    height: 100px;
+    width: 350px;
+    margin-left: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.input-6 input {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.input-6 label {
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+.input-6 img {
+    height: 90px;
+    border-radius: 8px;
+    padding-top: 5px;
+}
+
+.form-4 button {
+    margin: 20px;
+    width: 500px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50px;
+    font-size: 30px;
+    border: 2px solid black;
+}
+
+.float {
+    height: 20vh;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.int {
+    height: 100px;
+    width: 1000px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-right: 50px;
+    font-family: sans-serif;
+}
+
+.int-2 {
+    height: 40px;
+    width: 200px;
+    margin-top: 40px;
+    background-color: black;
+    color: yellow;
+    font-size: 10px;
+
+}
+
+.foot {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+.foot ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.foot ul li {
+    padding: 5px 0;
+}
+
+.foot h2 {
+    color: yellow;
+    padding-top: 10px;
+}
+
+.footers {
+    height: 400px;
+    width: 200px;
+    margin-top: 30px;
+}
+
+.foot-2 ul {
+    padding-top: 30px;
+}
+
+.foot-3 {
+    width: 350px;
+}
+
+.foot-3 p {
+    padding-top: 35px;
+}
+
+.foot-3>input:nth-child(3) {
+    margin-top: 20px;
+    height: 35px;
+    width: 300px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.foot-3 button {
+    margin-top: 20px;
+    width: 320px;
+    border-radius: 50px;
+    background-color: yellow;
+    font-size: 16px;
+    height: 40px;
+}
+
+.feet {
+    border: 2px solid white;
+    height: 80px;
+    background-color: white;
+    margin-top: 20px;
+    width: 260px;
+    border-radius: 5px;
+    display: flex;
+    gap: 20px;
+    color: black;
+}
+
+.feet input {
+    width: 20px;
+    margin-left: 20px;
+}
+
+.feet img {
+    width: 100px;
+}
+
+.foot-4 {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.foot-4 p {
+    padding-bottom: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 2.1px;
+    width: fit-content;
+}
+
+.feet-2 {
+    display: flex;
+}
+
+.feet-2 img {
+    width: 60px;
+    height: 45px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 2.1px;
+    width: fit-content;
+}
